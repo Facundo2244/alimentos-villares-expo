@@ -1,0 +1,187 @@
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgb(00, 68, 64, 0.1);
+    border-bottom: 1px solid black;
+    text-align: center;
+    align-items: center;
+    vertical-align: middle;
+}
+nav ul li{
+    display: inline-block;
+    margin: 50px;
+    vertical-align: middle;
+    
+}
+
+.botones{
+    color: #CF142C;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+
+}
+.banner{
+    text-align: center;
+}
+
+.texto-principal{
+    color: #006864;
+    font-family: 'Poppins', sans-serif; 
+    margin-left: 10px;
+}
+
+
+footer{
+    background-color: rgb(00, 68, 64, 0.1);
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+footer ul li {
+    list-style: none;
+}
+.info{
+    display: flex;
+    color: #006864;
+    text-align: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+h1{
+    color: #CF142C;
+    font-family: 'Poppins', sans-serif;
+    text-align: center
+}
+h2{
+    color: #CF142C;
+    font-family: 'Poppins', sans-serif;
+
+}
+section h2{
+    color: white;
+    background-color: #006864;
+    display: table-row
+
+
+}
+.texto-institucional{
+        
+    text-align: center;
+}
+
+.fondo-quienes-somos{
+    background-image: url(../assets/img/fondo-1440-1501.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fotos{
+    display: flex;
+    flex-direction: column;
+    max-width: 611px;
+}
+.historia{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+.productos{
+    background-color: #006817;
+    background-size: auto;
+}
+form{
+    margin-top: 10px;
+}
+label{
+    display: flex;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #006864;
+    font-family: 'Poppins', sans-serif;
+}
+input,textarea{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #006864 ;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.boton-formulario{
+    background-color: #006864;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.redes{
+    text-align: center;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    max-width: 1100px;
+    margin: auto;
+
+}
+.card{
+    width: 100%;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0px 1px 10px rgba(0,0, 0, 2);
+    text-align: center ;
+    cursor: default;
+    transition: all 400ms ease;
+    line-height: 1.5;
+}
+.card:hover{
+    box-shadow: 5px 5px 200px rgba(0,0, 0, 4);
+    transform: translateY(-3%);
+}
+.card.contenido{
+    padding-top: 15px;
+    text-align: center;
+}
+
+.card .contenido p{
+    line-height: 1.5;
+    font-family: 'Poppins';
+    color: dimgray;
+
+}
+.card .contenido a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    color: #006864;
+    border: 1px solid #006864;
+    border-radius: 4px;
+    transition: all 400ms ease;
+    font-family: 'Poppins', sans-serif;
+}
+.novedades{
+    text-align: center;
+}
+main {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.noticia{
+    color: #006864;
+    font-family: 'Poppins', sans-serif;
+}
