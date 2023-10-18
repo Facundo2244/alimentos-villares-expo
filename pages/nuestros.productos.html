@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Nuestros Productos | Alimentos Villares</title>
@@ -11,17 +11,20 @@
     <link rel="icon" type="image/png" href="../assets/img/isotipo-marca.png"/>
 </head>
 <body>
-    <header>
+    <!-- Header -->
+    <header class="menu">
+        <a href="../index.html"><img src="../assets/img/isotipo-marca.png" alt="Logo institucional"></a>
+
         <nav>
             <ul>
-                <li><a href="../pagina-principal.html"><img class="logo" src="../assets/img/isotipo-marca.png" alt="Logo institucional de la empresa"></a></li>
-                <li><a class="botones"href="./quienes-somos.html">¿QUIÉNES SOMOS?</a></li>
-                <li><a class="botones"href="#">NUESTROS PRODUCTOS</a></li>
-                <li><a class="botones"href="./contacto.html">CONTACTO</a></li>
-                <li><a class="botones"href="./novedades.html">NOVEDADES</a></li>
-                <li><a href="../pages/futuras-paginas/futura-pagina.ingles.html"><img class="logo" src="../assets/img/reino-unido.png" alt="Bandera de Gran Bretaña utilizada para cambiar el idioma a Inglés"></a></li>
+                <li><a href="../pages/quienes-somos.html">¿QUIENES SOMOS?</a></li>
+                <li><a href="#">NUESTROS PRODUCTOS</a></li>
+                <li><a href="../pages/novedades.html">NOVEDADES</a></li>
+                <li><a href="../pages/contacto.html">CONTACTO</a></li>
             </ul>
         </nav>
+
+        <a href="../pages/futuras-paginas/futura-pagina.ingles.html"><img src="../assets/img/reino-unido.png" alt="Bandera Reino Unido"></a>
     </header>
     <main>
         <article>
@@ -40,23 +43,26 @@
             </section>
         </article>
     </main>
-    <footer>
-        <ul>
-            <li class="botones"><p>DIRECCIÓN: Volta 3035, Tortuguitas, Bs.As, Argentina.<br>TELÉFONO: (11) 3221-5919<br>EMAIL: info@alimentosvillares.com.ar 
-            </li> </p></li>
-        </ul>
-        <ul>
-            <li><a class="botones" href="../pages/futuras-paginas/futura-page-clientes.html">CLIENTES</a></li>
-            <li><a class="botones" href="../pages/futuras-paginas/futura-page-proveedores.html">PROVEEDORES</a></li>
-        </ul>
-        <ul>
-            <li>
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="f-container">
+            <div class="contacto">
+                <p>DIRECCIÓN: Volta 3035, Tortuguitas, Bs.As, Argentina.<br>TELÉFONO: (11) 3221-5919<br>EMAIL: info@alimentosvillares.com.ar 
+            </div>
+
+            <div class="clientes-proveedores">
+                <ul>
+                    <li><a class="botones" href="../pages/futuras-paginas/futura-page-clientes.html">CLIENTES</a></li>
+                    <li><a class="botones" href="../pages/futuras-paginas/futura-page-proveedores.html">PROVEEDORES</a></li>
+                </ul>
+            </div>
+
+            <div class="redes-sociales">
                 <a  href="https://api.whatsapp.com/send?phone=5491127869756"><img src="../assets/img/whatsapp.png" alt="logo de whatsapp"></a>
                 <a  href="https://www.instagram.com/alimentosvillares/"><img src="../assets/img/instagram.png" alt="logo de instagram"></a>
                 <a  href="https://www.facebook.com/alimentosvillares.arg/"><img src="../assets/img/facebook.png" alt="logo de facebook"></a>
                 <a  href="https://ar.linkedin.com/company/alimentos-villares"><img src="../assets/img/linkedin.png" alt="logo de linkedin"></a>
-            </li>
-        </ul>
-    </footer>
+            </div>
+        </div>
 </body>
 </html>

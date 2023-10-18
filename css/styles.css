@@ -86,6 +86,10 @@ h1{
     font-family: 'Poppins', sans-serif;
     text-align: center;
 }
+h2{
+    color: #CF142C;
+    font-family: 'Poppins', sans-serif;
+}
 
 .main{
     background-image: url(../assets/img/fondo-1440-1501.jpg);
